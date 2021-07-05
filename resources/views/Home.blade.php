@@ -13,8 +13,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="{{asset('/css/home.css')}}">
-  <script src="{{asset('/js/home.js')}}"></script>
+  <link rel="stylesheet" href="asset('/css/home.css">
+  <script src="asset('/js/home.js"></script>
   <script>
   </script>
 </head>
