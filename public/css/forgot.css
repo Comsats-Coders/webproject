@@ -1,0 +1,49 @@
+h3 {
+    font-family: Arial;
+}
+input:focus {
+    outline: none;
+}
+
+#bg2 {
+    background-color: white;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+.f {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ee1144;
+    width: 100%;
+}
+
+body {
+    background-color: #131619;
+}
+
+
+#form {
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+.btn {
+    background-color: #ee1144;
+    border: none;
+}
+
+.btn:hover {
+        background-color: #cc0d3a;
+}
+
+.bi-twitter, .bi-facebook, .bi-github, .bi-twitter, .bi-instagram{
+    color:#99999c
+}
+.bi:hover{
+   color: #cc0d3a;
+}
+.btn.disabled {
+    background-color: #ee1144;
+    opacity: 0.5;
+}

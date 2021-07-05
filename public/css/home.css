@@ -1,0 +1,138 @@
+*{
+    
+font-family: 'Bona Nova', serif;
+}
+#post{
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid #ee1144;
+    width: 100%;
+    resize: none;
+}
+ul{
+    width: 100%;
+}
+
+textarea:focus {
+    box-shadow: 0 0 4px 1px #ee1144;
+}
+#post:focus{
+    outline: none;
+}
+#pic:hover{
+    font-size: 180%;
+    color:#cc0d3a;;;
+}
+
+#pic{
+   font-size: 150%;
+    color:#ee1144
+}
+
+.a{
+    width:90%;
+}
+
+body {
+    background-color: #131619;
+  }
+.card-text{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+.bi{
+    font-size: 20px;
+}
+#userName{
+    font-size: small;
+}
+ a:hover{
+        text-decoration: none;
+    }
+#search{
+    visibility:hidden;
+    }
+#search:focus{
+        width:50%;
+}
+.img-thumbnail:hover{
+        transform: scale(1.05);
+    }
+.logDrop{
+        margin-left: 50%;
+    }
+#qa
+{
+    border-radius: 8px 8px 8px 8px;
+ }
+ .card-footer{
+background:transparent;
+border:none;
+
+ }
+ #qa:hover{
+    box-shadow:0 0 5px 1px #ee1144;
+ }
+    
+ .bi:hover{
+    color:#cc0d3a;}
+
+.bi{
+    color:#57575c
+}
+ .bi-house-door-fill{
+     color: #ee1144;
+ }
+ #postBtn{
+     
+    background-color:#ee1144;
+    border: none;
+ }
+ #postBtn:hover{
+     background-color: #cc0d3a;;
+ }
+#what{
+    background-color: black;
+    border-radius: 8px 8px 8px 8px;
+}
+#mycard{
+    background: transparent;
+    color:white;
+    border: none
+}
+.card-link {
+    color:#ee1144;
+}
+.card-link:hover{
+    color:#cc0d3a;;
+    fill: #cc0d3a;
+}
+.bi-list{
+    color:#cc0d3a;;
+
+}
+.bi-hand-thumbs-up-fill,.bi-hand-thumbs-down-fill{
+    font-size: 20px;
+    color: #ee1144;
+}
+
+#postBtn.disabled {
+    background-color: #ee1144;
+    opacity: 0.5;
+}
+#postBtn:focus {
+    outline: none;
+    box-shadow: none;
+}
+.image-upload>input {
+    visibility:hidden;
+    width:0;
+    height:0
+}
+@media screen and (max-width:1150px) {
+    #mycard {
+        display: none !important;
+    }
+}
+.like{
+cursor: pointer;
+}

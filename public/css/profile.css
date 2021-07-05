@@ -1,0 +1,131 @@
+.profile-head {
+    transform: translateY(5rem)
+}
+
+.cover {
+    background-image: url(https://images.unsplash.com/photo-1530305408560-82d13781b33a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80);
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+body {
+    background: #654ea3;
+    background-color: #131619;
+    min-height: 100vh;
+}
+ #Ppic{
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+  }
+  .card-footer{
+ background:transparent;
+ border:none;
+ 
+  }
+
+.btn {
+    background-color: #ee1144;
+    border: none;
+}
+
+.btn:hover {
+        background-color: #cc0d3a;
+}
+.bi:hover {
+    color: #cc0d3a;
+    ;
+}
+
+.bi {
+    color: #57575c;
+    font-size: 20px;
+}
+
+.bi-person-fill {
+    color: #ee1144;
+}
+
+.btn-success {
+    background-color: #ee1144;
+    border: none;
+}
+
+    .btn-success:hover {
+        background-color: #cc0d3a;
+    }
+.btn-block {
+    background-color: #ee1144;
+    border: none;
+    color: white;
+}
+    .btn-block:hover {
+        background-color: #cc0d3a;
+        color: white;
+    }
+#bio{
+    color: white;
+}
+
+#qa {
+    border-radius: 8px 8px 8px 8px;
+}
+
+.card-footer {
+    background: transparent;
+    border: none;
+}
+
+#qa:hover {
+    box-shadow: 0 0 5px 1px #ee1144;
+}
+.card-link {
+    color: #ee1144;
+}
+.card-link:hover {
+    color: #cc0d3a;
+}
+.bi-list{
+    color:#cc0d3a;
+
+}
+
+.bi-images{
+    color:#ee1144;
+    font-size: 30px;
+  }
+@media (max-width: 768px) {
+    /* Smaller screen, hide location 2 */
+    #gal {
+      display: none;
+    }
+  }
+  @media (min-width: 768px) {
+    #galIcon{
+        display: none;
+      }
+    
+#what{
+    background-color: black;
+    border-radius: 8px 8px 8px 8px;
+}
+#askBtn.disabled {
+    background-color: #ee1144;
+    opacity: 0.5;
+}
+#askBtn:focus {
+    outline: none;
+    box-shadow: none;
+}#post{
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid #ee1144;
+    width: 100%;
+    resize: none;
+}
+textarea:focus {
+    box-shadow: 0 0 4px 1px #ee1144;
+}
+#post:focus{
+    outline: none;
+}
+  }

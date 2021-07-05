@@ -1,0 +1,22 @@
+.card-text{
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#search{
+visibility:hidden;
+}
+#search:focus{
+    width:50%;
+}
+.card:hover{
+    box-shadow: 0px 0px 2px .05px blue;
+}
+.img-thumbnail:hover{
+    transform: scale(1.05);
+}
+.img-thumbnail{
+    font-size:0px;
+}
+.logDrop{
+    margin-left: 70%;
+}

@@ -1,0 +1,74 @@
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+input:focus{
+    outline: none;
+} 
+#bg2{
+   background-color: white;
+}
+#name ,#pass{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ee1144;
+    width: 100%;
+}
+body{
+    background-color: #131619; 
+}
+
+#form{
+    padding-top: 15%;
+}
+.btn{
+    background-color: #ee1144;
+    border: none;  
+}
+.btn.disabled{
+    background-color: #ee1144;
+    opacity: 0.5;
+
+}
+.btn:hover{
+background-color: #cc0d3a;
+}
+#LogBtn,#newBtn:focus{
+   box-shadow: none;
+   background-color: #cc0d3a;
+   border: none;
+   outline: none;
+    }
+.bi{
+    font-size: 25px;
+    
+}
+#fb{
+    padding-right: 20px;
+    color:#1778F2;
+}
+#fb:hover{
+    color:#1665c7;
+    cursor:pointer;
+}
+#g{
+    color:#e76256
+}
+#g:hover{
+    color:#da3b2d;
+    cursor:pointer;
+}
+.col-md-7{
+padding-top: 10%;
+}
+.forget{
+color: #ee1144;
+}
+
+.bi-twitter, .bi-facebook, .bi-github, .bi-twitter, .bi-instagram{
+    color:#99999c
+}
+.bi:hover{
+color: #cc0d3a;
+}
+

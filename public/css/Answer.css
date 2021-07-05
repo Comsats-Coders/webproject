@@ -1,0 +1,108 @@
+#comment {
+    border-radius: 5px 5px 5px 5px;
+    width: 100%;
+    resize: none;
+}
+    #comment:focus {
+        box-shadow: 0 0 4px 0.5px #4A4A50;
+        outline: none;
+        border: none;
+    }
+#pic:hover {
+    font-size: 180%;
+    color: #cc0d3a;
+}
+
+#pic {
+    font-size: 150%;
+    color: #ee1144
+}
+
+.a{
+    width:90%;
+}
+ body {
+    background-color: #131619;
+}
+.card-text{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+.bi{
+    font-size: 20px;
+}
+#userName{
+    font-size: small;
+}
+ a:hover{
+        text-decoration: none;
+    }
+#search{
+    visibility:hidden;
+    }
+#search:focus{
+        width:50%;
+}
+.img-thumbnail:hover{
+        transform: scale(1.05);
+    }
+#qa
+{
+        border-radius: 8px 8px 8px 8px;
+ }
+    #qa:hover {
+        box-shadow: 0 0 5px 1px #ee1144;
+    }
+ .card-footer{
+background:transparent;
+border:none;
+
+ }
+.bi:hover {
+    color: #cc0d3a;
+    ;
+}
+
+.bi {
+    color: #57575c
+}
+
+.bi-question-square-fill {
+    color: #ee1144;
+}
+
+.btn-success {
+    background-color: #ee1144;
+    border: none;
+}
+
+    .btn-success:hover {
+        background-color: #cc0d3a;
+        
+    }
+
+.card{
+    background: transparent;
+    color: white;
+    border: none
+}
+
+
+.card-link {
+    color: #ee1144;
+}
+
+.card-link:hover {
+        color: #cc0d3a;
+        
+}
+.bi-list{
+    color:#cc0d3a;
+
+}
+.close:active{
+    color: #cc0d3a;
+    border: 1px solid blue;
+}
+
+
