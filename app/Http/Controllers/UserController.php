@@ -25,7 +25,10 @@ class UserController extends Controller
     {
         return view('changePass');
     }
-
+  function home()
+    {
+        return view('home');
+    }
     function explore()
     { 
         $resultsData = DB::select(DB::raw("select userName,profilePic,bio from user"));
