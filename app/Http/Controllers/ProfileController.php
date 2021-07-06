@@ -34,6 +34,7 @@ function addQ(Request $request, $userID){
         $hostid = $row->userID;}
         $question=$request->input("qs");
     DB::insert('insert into qna (hostID,recieverID,question) values (?,?,?)', [$hostid,$userID,$question]);
+    $questionPosts = DB::select("select question,userName,profilePic,answer from qna,user where answer is not null and qna.recieverID=? and qna.recieverID=user.userID",[$userID]);
     $profileData=DB::select('select userID,userName,profilePic,country,bio from user where userID = ?', [$userID]);
-    return view('OtherProfile',['profileData'=>$profileData]);}
+    return view('OtherProfile',['profileData'=>$profileData],['questionPosts' => $questionPosts]);}
 }
