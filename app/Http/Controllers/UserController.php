@@ -185,8 +185,7 @@ class UserController extends Controller
             $likedPosts = DB::select("select postID from likes where likes.userID=?", [$userid]);
              $myProfile= DB::select("select userName,bio,profilePic from user where userID=?",[$userid]);
             //dd($likedPosts);
-            return view('home',  array ('searchResults' => $searchResults, 'questionPosts' => $questionPosts,'likedPosts' => $likedPosts,
-            'myProfile'=> $myProfile));
+            return view('home',  array ('searchResults' => $searchResults, 'questionPosts' => $questionPosts,'likedPosts' => $likedPosts,'myProfile'=> $myProfile));
         } else {
             return view('login');
         }
