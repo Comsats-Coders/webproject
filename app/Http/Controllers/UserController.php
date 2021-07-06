@@ -179,10 +179,11 @@ class UserController extends Controller
             $userid = $row->userID;
         }
         if ($userid != null) {
-            $myProfile= DB::select("select userName,bio,profilePic from user where userID=?",[$userid]);
+           
             $searchResults = DB::select("select postID,content,userName,date,profilePic,totalLikes from post,user where post.userID=user.userID");
             $questionPosts = DB::select("select question,userName,profilePic,answer from qna,user where answer is not null and qna.recieverID=user.userID");
             $likedPosts = DB::select("select postID from likes where likes.userID=?", [$userid]);
+             $myProfile= DB::select("select userName,bio,profilePic from user where userID=?",[$userid]);
             //dd($likedPosts);
             return view('home',  array ('searchResults' => $searchResults, 'questionPosts' => $questionPosts,'likedPosts' => $likedPosts,
             'myProfile'=> $myProfile));
