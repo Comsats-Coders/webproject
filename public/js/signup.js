@@ -18,7 +18,7 @@ function myfunction() {
            empty = true;
        }
    });
-   if (empty == false && matchPass() == true && testPass()=true && testFname() == true && testLname() == true && userConstraint()== true && email() == true && checkAge()>=13) {
+   if (empty == false && testPass()=true && testFname() == true && testLname() == true && userConstraint()== true && email() == true && checkAge()>=13) {
        $('#signupBtn').removeClass("disabled");
    }
    else {
@@ -124,21 +124,21 @@ function matchPass() {
    }
 }
 
-function testPass() {
+function testPass(event) {
     var regex = new RegExp("^(.{0,7}|[^0-9]*|[^A-Z]*|[^a-z]*|[a-zA-Z0-9]*)$");
     var testp = $('#pass').val();
     if(testp!=""){
-     if(this.which==32){
-     this.preventDefault();
+     if(event.which==32){
+     event.preventDefault();
    }
    else{
         if (regex.test(testp)){
         $("#passTest").html("Password must contain a special charchter, numeric and capital letter, min length 8");
-            return false;
+            
         }
         else {
         $("#passTest").html("Good to go!");
-            return true;
+            
         }
         
 }}
