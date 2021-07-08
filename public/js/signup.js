@@ -18,7 +18,7 @@ function myfunction() {
            empty = true;
        }
    });
-   if (empty == false && testPass()=true && testFname() == true && testLname() == true && userConstraint()== true && email() == true && checkAge()>=13) {
+   if (empty == false && matchPass()=true && testFname() == true && testLname() == true && userConstraint()== true && email() == true && checkAge()>=13) {
        $('#signupBtn').removeClass("disabled");
    }
    else {
